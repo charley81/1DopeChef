@@ -5,8 +5,8 @@ const GlobalStyles = css`
     --darkText: #2d3436;
     --lightText: #636e72;
     --lightestText: #ffffff;
-    --primarycolor: #0984e3;
-    --secondarycolor: #ffeaa7;
+    --primaryColor: #0984e3;
+    --secondaryColor: #ff7675;
     --lightShadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --darkShadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     --borderRadius: 3px;
