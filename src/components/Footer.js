@@ -6,6 +6,7 @@ const FooterStyles = styled("footer")`
   background: var(--darkText);
   color: var(--lightestText);
   padding: 1rem;
+  text-align: center;
 
   .footer-icons {
     display: flex;
@@ -40,7 +41,7 @@ const Footer = () => {
   return (
     <FooterStyles>
       <SocialLinks styleClass="footer-icons" />
-      <p>&copy; all rights reserved 1DopeChef {new Date().getFullYear()}</p>
+      <p>&copy; 1DopeChef {new Date().getFullYear()}</p>
     </FooterStyles>
   )
 }
