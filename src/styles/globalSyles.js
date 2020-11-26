@@ -107,7 +107,7 @@ const GlobalStyles = css`
 
   .btn {
     text-transform: uppercase;
-    background: var(--primarycolor);
+    background: var(--primaryColor);
     color: var(--lightestText);
     padding: 0.5rem 1rem;
     display: inline-block;

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { IoMdClose } from "react-icons/io"
 import NavLinks from "../constants/navLinks"
 import SocialLinks from "../constants/socialLinks"
