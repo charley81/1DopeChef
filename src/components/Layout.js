@@ -3,6 +3,7 @@ import { Global } from "@emotion/core"
 import GlobalStyles from "../styles/globalSyles"
 import Navbar from "./Navbar"
 import Sidebar from "./Sidebar"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +18,7 @@ const Layout = ({ children }) => {
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <main>{children}</main>
-      <footer></footer>
+      <Footer />
     </>
   )
 }
