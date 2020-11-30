@@ -29,6 +29,12 @@ const GlobalStyles = css`
     color: var(--lightText);
   }
 
+  .site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column
+  }
+
   h1,
   h2,
   h3,

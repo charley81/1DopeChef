@@ -15,22 +15,25 @@ const Layout = ({ children }) => {
   return (
     <>
       <Global styles={GlobalStyles} />
-      <Navbar toggle={toggle} />
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <main
-        css={css`
-          width: 90vw;
-          margin: 0 auto;
-          max-width: var(--maxWidth);
+      <div className="site">
+        <Navbar toggle={toggle} />
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <main
+          css={css`
+            width: 90vw;
+            margin: 0 auto;
+            max-width: var(--maxWidth);
+            flex-grow: 1;
 
-          @media screen and (min-width: 1000px) {
-            width: 95vw;
-          }
-        `}
-      >
-        {children}
-      </main>
-      <Footer />
+            @media screen and (min-width: 1000px) {
+              width: 95vw;
+            }
+          `}
+        >
+          {children}
+        </main>
+        <Footer />
+      </div>
     </>
   )
 }
