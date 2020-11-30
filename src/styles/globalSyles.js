@@ -26,7 +26,6 @@ const GlobalStyles = css`
     line-height: 1.5;
     letter-spacing: 2px;
     font-size: 18px;
-    height: 100%;
     color: var(--lightText);
   }
 
@@ -123,17 +122,6 @@ const GlobalStyles = css`
       border-color: var(--primarycolor);
       color: var(--darkText);
     }
-  }
-
-  .section {
-    padding: 5rem 0;
-    position: relative;
-  }
-
-  .section-center {
-    width: 90vw;
-    margin: 0 auto;
-    max-width: var(--maxWidth);
   }
 
   @media screen and (min-width: 1000px) {
