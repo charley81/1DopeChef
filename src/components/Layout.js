@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
         <main
           css={css`
             width: 90vw;
-            margin: 0 auto;
+            margin: 2rem auto 0;
             max-width: var(--maxWidth);
             flex-grow: 1;
 
