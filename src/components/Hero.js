@@ -13,6 +13,7 @@ const query = graphql`
     }
   }
 `
+
 const Hero = ({ showChef }) => {
   const { chef } = useStaticQuery(query)
 
