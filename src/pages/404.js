@@ -32,7 +32,7 @@ const fourOhFour = () => {
     <Layout>
       <ErrorStyles>
         <h1>404</h1>
-        <p>This Page Doesn't Exist</p>
+        <p>You Must Be lost!</p>
         <Link to="/">Home</Link>
       </ErrorStyles>
     </Layout>

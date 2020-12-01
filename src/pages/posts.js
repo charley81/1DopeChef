@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 
-export default function Home() {
-  return (
-    <Layout>
-      <h3>Posts Page</h3>
-    </Layout>
-  )
-}
+const Posts = () => (
+  <Layout>
+    <h3>Posts</h3>
+  </Layout>
+)
+
+export default Posts

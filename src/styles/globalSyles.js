@@ -122,12 +122,18 @@ const GlobalStyles = css`
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: var(--borderRadius);
+    font-family: "Raleway", sans-serif;
 
     &:hover {
       background: transparent;
       border-color: var(--primarycolor);
       color: var(--darkText);
     }
+  }
+
+  .btn-center {
+    display: block;
+    width: 100%;
   }
 
   @media screen and (min-width: 1000px) {
