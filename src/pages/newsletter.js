@@ -30,6 +30,7 @@ const NewsletterStyles = styled("section")`
     form {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 0.25rem;
     }
 
     input {
@@ -45,9 +46,17 @@ const Newsletter = () => (
       <div className="section-container">
         <h4>Get new dope recipes to your inbox</h4>
         <p>New content weekly</p>
-        <form>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          action="/success"
+        >
           <input type="email" name="email" placeholder="Your email" />
           <input type="text" name="name" placeholder="Your name" />
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
           <button type="submit" className="btn btn-center">
             Subscribe
           </button>
