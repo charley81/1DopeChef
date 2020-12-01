@@ -40,7 +40,7 @@ const NewsletterStyles = styled("section")`
   }
 `
 
-const Newsletter = () => (
+const newsletterPage = () => (
   <Layout>
     <NewsletterStyles>
       <div className="section-container">
@@ -66,4 +66,4 @@ const Newsletter = () => (
   </Layout>
 )
 
-export default Newsletter
+export default newsletterPage
