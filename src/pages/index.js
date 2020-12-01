@@ -2,10 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import Hero from "../components/hero"
 
-const Home = () => (
+const homePage = () => (
   <Layout>
     <Hero showChef={true} />
   </Layout>
 )
 
-export default Home
+export default homePage
