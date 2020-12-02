@@ -112,6 +112,7 @@ const GlobalStyles = css`
 
   .btn {
     text-transform: uppercase;
+    text-align: center;
     background: var(--primaryColor);
     color: var(--lightestText);
     padding: 0.5rem 1rem;
@@ -138,6 +139,10 @@ const GlobalStyles = css`
 
   @media screen and (min-width: 1000px) {
     .section-center: width: 95;
+
+    .btn-center {
+      max-width: 1000px;
+    }
   }
 `
 

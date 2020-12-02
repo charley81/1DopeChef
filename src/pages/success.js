@@ -11,7 +11,7 @@ const successPage = () => {
   return (
     <Layout>
       <SuccessStyles>
-        <h3>Your Submission Was Received</h3>
+        <h3>Thanks for subscribing! We've received your submission</h3>
         <Link to="/" className="btn">
           Back Home
         </Link>

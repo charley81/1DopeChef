@@ -3,7 +3,6 @@ import { Global, css } from "@emotion/core"
 import GlobalStyles from "../styles/globalSyles"
 import Navbar from "./navbar"
 import Sidebar from "./sidebar"
-import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -32,7 +31,6 @@ const Layout = ({ children }) => {
         >
           {children}
         </main>
-        <Footer />
       </div>
     </>
   )

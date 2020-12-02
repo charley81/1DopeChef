@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 
-const postPage = () => (
+const recipePage = () => (
   <Layout>
-    <h3>Post</h3>
+    <h3>Recipe</h3>
   </Layout>
 )
 
-export default postPage
+export default recipePage

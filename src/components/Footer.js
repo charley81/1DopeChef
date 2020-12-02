@@ -5,7 +5,7 @@ import styled from "@emotion/styled"
 const FooterStyles = styled("footer")`
   background: var(--darkText);
   color: var(--lightestText);
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
 
   .footer-icons {
