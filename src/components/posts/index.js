@@ -1,11 +1,17 @@
 import React from "react"
 import Post from "./post"
+import Banner from "../banner"
 
-const Posts = () => {
+const Posts = ({ posts, title }) => {
   return (
-    <div>
-      <h2>Posts Component</h2>
-    </div>
+    <section>
+      <h3>{title}</h3>
+      <article>
+        {posts.map(post => (
+          <Post key={post.id} />
+        ))}
+      </article>
+    </section>
   )
 }
 
