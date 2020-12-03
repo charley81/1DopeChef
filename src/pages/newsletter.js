@@ -44,7 +44,7 @@ const newsletterPage = () => (
   <Layout>
     <NewsletterStyles>
       <div className="section-container">
-        <h4>Get new dope recipes to your inbox</h4>
+        <h4>Stay up on what we've got going on!</h4>
         <p>New content weekly</p>
         <form
           name="contact"
