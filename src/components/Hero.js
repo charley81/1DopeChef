@@ -24,7 +24,7 @@ const Hero = ({ showChef }) => {
         text-align: center;
 
         .hero-img {
-          max-width: 400px;
+          max-width: 700px;
           max-height: 100%;
           margin: auto;
 
