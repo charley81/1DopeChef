@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import Posts from "../components/posts/index"
+import Posts from "../components/posts/posts"
 
 export const query = graphql`
   {
@@ -36,7 +36,6 @@ const recipesPage = ({ data }) => {
 
   return (
     <Layout>
-      <h3>Recipes</h3>
       <Posts posts={posts} title="recently published" />
     </Layout>
   )

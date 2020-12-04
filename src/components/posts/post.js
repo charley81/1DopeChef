@@ -1,10 +1,24 @@
 import React from "react"
+import styled from "@emotion/styled"
+import Img from "gatsby-image"
+import { Link } from "gatsby"
 
-const Post = () => {
+const Post = props => {
+  const { title, image, slug, category } = props.node.frontmatter
+
   return (
-    <div>
-      <h3>Post Component</h3>
-    </div>
+    <article>
+      <Img fluid={image.childImageSharp.fluid} />
+      <div className="recipe-info">
+        <span className="category">{category}</span>
+        <h3>{title}</h3>
+        <p>{props.node.excerpt}</p>
+        <Link to={`/posts/${slug}`} className="link">
+          Cont...
+          <IoMdArrowRoundForward />
+        </Link>
+      </div>
+    </article>
   )
 }
 

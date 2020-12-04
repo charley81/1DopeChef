@@ -27,8 +27,6 @@ const GlobalStyles = css`
     letter-spacing: 2px;
     font-size: 18px;
     color: var(--lightText);
-    overflow: hidden;
-    height: 100vh;
   }
 
   .site {
