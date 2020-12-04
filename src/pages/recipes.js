@@ -11,6 +11,7 @@ export const query = graphql`
           id
           excerpt
           frontmatter {
+            title
             slug
             date(formatString: "MMMM Do, YYYY")
             category
@@ -36,7 +37,7 @@ const recipesPage = ({ data }) => {
 
   return (
     <Layout>
-      <Posts posts={posts} title="recently published" />
+      <Posts posts={posts} title="Latest Sessions" />
     </Layout>
   )
 }
