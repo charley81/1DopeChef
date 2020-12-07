@@ -67,7 +67,6 @@ const PostStyles = styled("div")`
 
 const Post = props => {
   const { title, image, slug, category } = props.node.frontmatter
-  console.log(props.node.frontmatter)
   return (
     <PostStyles>
       <Img fluid={image.childImageSharp.fluid} className="img" />
